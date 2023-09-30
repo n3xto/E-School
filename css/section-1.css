@@ -1,0 +1,108 @@
+.section-1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10vh;
+}
+
+.section-1__left{
+    margin: 0 auto;
+    width: 45vw;
+    height: auto;
+}
+.section-1__left-subtitle{
+    color: #FD511A;
+    font-size: 1rem;
+    margin-bottom: 16px;
+}
+.section-1__left-title{
+    font-size: 3rem;
+    margin-bottom: 10px;
+}
+.section-1__left-title span{
+    color: var(--color-green);
+}
+.section-1__left-description{
+    font-size: 1rem;
+    color: #6C6B6B;
+    margin-bottom: 16px;
+    line-height: 1.5rem;
+}
+.section-1__right{
+    margin: 0 auto;
+    width: 45vw;
+    height: auto;
+}
+.section-1__right-img img{
+    height: auto;
+    width: 100%;
+}
+@media (max-width:950px){
+    .section-1__left-subtitle{
+        font-size: .8rem;
+    }
+    .section-1__left-title{
+        font-size: 2.7rem;
+    }
+    .section-1__left-description{
+        font-size: .8rem;
+    }
+}
+
+@media (max-width:768px){
+    .section-1__left-subtitle{
+        font-size: .7rem;
+    }
+    .section-1__left-title{
+        font-size: 2.3rem;
+    }
+    .section-1__left-description{
+        font-size: .7rem;
+    }
+}
+@media (max-width:615px){
+    .section-1{
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        justify-content: center;
+        gap: 40px;
+    }
+    
+    .section-1__left{
+        margin: 0 auto;
+        width: 75%;
+        text-align: center;
+    }
+    .section-1__left-subtitle{
+        font-size: .8rem;
+        margin-bottom: 10px;
+    }
+    .section-1__left-title{
+        font-size: 2.5rem;
+        margin-bottom: 5px;
+    }
+    .section-1__right{
+        margin: 0 auto;
+        width: 75%;
+        height: auto;
+    }
+}
+
+@media (max-width:450px){
+    .section-1__left-title{
+        font-size: 2rem;
+        margin-bottom: 5px;
+    }
+}
+@media (max-width:300px){
+    .section-1__left-title{
+        font-size: 1.5rem;
+    }
+    .section-1__left-subtitle{
+        font-size: .8rem;
+    }
+    .section-1__left-description{
+        font-size: .6rem;
+    }
+}
